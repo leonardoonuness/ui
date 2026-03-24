@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object NetworkProvider {
 
     // Troque para a URL real do backend, ex: https://api.seuservico.com/
-    private const val BASE_URL = "https://seu-backend-aqui.com/"
+    private const val BASE_URL = "https://seuservico-backend.onrender.com/"
 
     val apiService: ApiService by lazy {
         Retrofit.Builder()
